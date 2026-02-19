@@ -1,0 +1,8 @@
+streamlit
+matchering
+pedalboard
+essentia
+librosa
+pyloudnorm
+numpy
+plotly
