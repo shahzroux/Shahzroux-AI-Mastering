@@ -47,7 +47,7 @@ if uploaded_files:
             
             # Jalankan Enjin Shahzroux
             engine = ShahzrouxEngine()
-            engine.process_audio(temp_in, temp_out)
+            engine.process_audio(temp_in, temp_out, warmth=warmth)
             
             mastered_paths.append(temp_out)
             progress_bar.progress((i + 1) / len(uploaded_files))
